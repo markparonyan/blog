@@ -19,7 +19,8 @@
     "build": "astro build",
     "check": "astro check",
     "validate": "pnpm check && pnpm build",
-    "verify": "pnpm validate && node scripts/verify-site.mjs && git diff --check",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "verify": "pnpm test && pnpm validate && node scripts/verify-site.mjs && git diff --check",
     "preview": "astro preview",
     "astro": "astro"
   },

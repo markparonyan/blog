@@ -8,6 +8,8 @@ Appreciate any corrections to this blog.
 
 Posts live in `src/content/posts/`, photographs and their captions are managed in `src/pages/photos.astro`, with source files in `src/assets/photos/`.
 
+To add, correct, or remove a workout date, follow [WORKOUT.md](WORKOUT.md).
+
 to run locally Node.js 22.12+ and pnpm are required
 
 ```sh

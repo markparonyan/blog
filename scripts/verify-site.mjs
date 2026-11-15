@@ -8,6 +8,7 @@ const expectedRoutes = [
 	"index.html",
 	"404.html",
 	"photos/index.html",
+	"workout/index.html",
 	"rss.xml",
 ];
 
